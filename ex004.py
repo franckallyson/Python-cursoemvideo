@@ -1,0 +1,8 @@
+x = input('Enter something:')
+print('The type of the Value Typed is {}'.format(type(x)))
+print('The Value Typed is numeric? {}' .format(x.isnumeric()))
+print('Is only spaces? {}'.format(x.isspace()))
+print('Is alphabetical? {}'.format(x.isalpha()))
+print('Is in lowercase? {}'.format(x.islower()))
+print('Is in uppercase? {}'.format(x.isupper()))
+print('is capitalized? {}'.format(x.istitle()))

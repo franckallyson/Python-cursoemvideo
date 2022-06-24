@@ -1,0 +1,7 @@
+name = str(input('Enter the name: ')).strip()
+maiusc = name.upper()
+minusc = name.lower()
+todo = len(name) - name.count(' ')
+separa = name.split()
+nome1 = len(separa[0])
+print('{}\n{}\n{}\n{}'.format(maiusc, minusc, todo, nome1))
